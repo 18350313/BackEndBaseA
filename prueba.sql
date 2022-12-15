@@ -16,27 +16,20 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Asphalt8`
+-- Table structure for table `pokemones`
 --
 
-DROP TABLE IF EXISTS `Asphalt8`;
+DROP TABLE IF EXISTS `pokemones`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Asphalt8` (
+CREATE TABLE `pokemones` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `Marca` varchar(255) NOT NULL,
-  `Nombre` varchar(255) NOT NULL,
-  `Tipo` varchar(255) NOT NULL,
-  `Color` varchar(255) NOT NULL,
-  `Clase` char(1) NOT NULL,
-  `RangoInicial` int(5) NOT NULL,
-  `RangoMax` int(5) NOT NULL,
-  `Aceleracion` double(3,2) NOT NULL,
-  `VelocidadMax` double(4,1) NOT NULL,
-  `Manejo` double(4,3) NOT NULL,
-  `Nitro` double(3,1) NOT NULL,
-  `Precio` int(7) NOT NULL,
-  `Activo` char(1) NOT NULL,
+  `Pokemon` varchar(255) NOT NULL,
+  `attack` int(3) NOT NULL,
+  `defense` int(3) NOT NULL,
+  `special_attack` int(3) NOT NULL,
+  `special_defense` int(3) NOT NULL,
+  `speed` int(3) NOT NULL,
   `Creado` timestamp NOT NULL DEFAULT current_timestamp(),
   `Modificado` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   PRIMARY KEY (`ID`)
@@ -44,12 +37,12 @@ CREATE TABLE `Asphalt8` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Asphalt8`
+-- Dumping data for table `pokemones`
 --
 
-LOCK TABLES `Asphalt8` WRITE;
-/*!40000 ALTER TABLE `Asphalt8` DISABLE KEYS */;
-INSERT INTO `Asphalt8` VALUES (5,'Lamborghini','Terzo Millennion','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-15 16:30:02','2022-11-15 16:30:02'),(6,'cxvxcdv','xdscsacs','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-16 16:08:34','2022-11-16 16:08:34');
+LOCK TABLES `pokemones` WRITE;
+/*!40000 ALTER TABLE `pokemones` DISABLE KEYS */;
+INSERT INTO `pokemones` VALUES (5,'Lamborghini','Terzo Millennion','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-15 16:30:02','2022-11-15 16:30:02'),(6,'cxvxcdv','xdscsacs','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-16 16:08:34','2022-11-16 16:08:34');
 /*!40000 ALTER TABLE `Asphalt8` ENABLE KEYS */;
 UNLOCK TABLES;
 
