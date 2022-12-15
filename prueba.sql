@@ -42,8 +42,7 @@ CREATE TABLE `pokemones` (
 
 LOCK TABLES `pokemones` WRITE;
 /*!40000 ALTER TABLE `pokemones` DISABLE KEYS */;
-INSERT INTO `pokemones` VALUES (5,'Lamborghini','Terzo Millennion','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-15 16:30:02','2022-11-15 16:30:02'),(6,'cxvxcdv','xdscsacs','Auto','Gris','S',1313,1806,2.50,299.9,1.300,10.0,420000,'S','2022-11-16 16:08:34','2022-11-16 16:08:34');
-/*!40000 ALTER TABLE `Asphalt8` ENABLE KEYS */;
+/*!40000 ALTER TABLE `pokemones` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -75,7 +74,6 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'abdiel.esteban@yopmail.com','Abdiel Esteban','Alfonso Chavez',22,'M','123','2000-08-06','S','2022-10-11 15:41:52','2022-10-11 15:41:52'),(2,'zahid.de.jesus@yopmail.com','Zahid de Jesus','Avalos Hernandez',21,'M','zad12345','2001-05-06','N','2022-10-11 15:41:52','2022-10-24 15:46:29'),(9,'erika@yopmail.com','Erika','Zarate Gutierrez',20,'F','erika123','2002-04-18','S','2022-10-26 15:16:08','2022-10-26 15:16:08'),(10,'pablo@yopmail.com','pablo','lol',30,'','pablo123','1900-01-01','S','2022-10-26 15:49:26','2022-10-27 15:47:36'),(11,'juan@yopmail.com','Juan','Carlos Angel',25,'M','$2a$10$S3mws2pKrEdMIXxNOimB/.HnZSxcJ.wn9bO1NxCI2sfTuXP86XnNW','1900-01-01','S','2022-10-28 15:38:54','2022-10-28 15:38:54'),(12,'luis@yopmail.com','Luis Angel','Ricardo Toledo',20,'M','$2a$10$v8z9/2EiEqy3drSb5V3lvON6CXwGuEe9VnTqX6kL/akx7frMuLgcG','1900-01-01','S','2022-10-28 15:41:26','2022-10-28 15:41:26'),(13,'jose@yopmail.com','jose','Ortega',17,'','$2a$10$qEJ5YUHh7nirbTar/NjIbu2d.afj9Ulqke3CHNqnAlD3Ec9s4AdGS','1900-01-01','S','2022-11-03 16:29:25','2022-11-03 16:31:43'),(14,'xd@yopmail.com','dwdadf','asfdasf',20,'M','$2a$10$p1pzVlq/BrcF3bK8CxixMO3v1F4RHHVBvaTVXm/gvDnSPoGaHEMO2','2022-06-09','S','2022-11-07 18:39:49','2022-11-17 16:48:05');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -88,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-18 10:17:11
+-- Dump completed on 2022-12-14 10:17:11
